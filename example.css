@@ -1,0 +1,83 @@
+/*.main {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.main > div{
+	width: 33.33%;
+	float: left;
+}
+
+.main div:first-child div:first-child{
+	height: 100px;
+	background: red;
+}
+
+.main div:first-child div:nth-child(2){
+	height: 250px;
+	background: blue;
+}
+
+.main div:first-child div:nth-child(3){
+	height: 150px;
+	background: green;
+}
+
+.main div:first-child div:nth-child(4){
+	height: 100px;
+	background: brown;
+}
+
+.main div:nth-child(2) div:first-child{
+	height: 50px;
+	background: yellow;
+}
+
+.main div:nth-child(2) div:nth-child(2){
+	height: 150px;
+	background: black;
+}
+
+.main div:nth-child(2) div:nth-child(3){
+	height: 200px;
+	background: gray;
+}
+
+.main div:nth-child(2) div:nth-child(4){
+	height: 200px;
+	background: lightgreen;
+}
+
+.main div:nth-child(3) div:first-child{
+	height: 50px;
+	background: pink;
+}
+
+.main div:nth-child(3) div:nth-child(2){
+	height: 50px;
+	background: aquamarine;
+}
+
+.main div:nth-child(3) div:nth-child(3){
+	height: 100px;
+	background: aqua;
+}
+
+.main div:nth-child(3) div:nth-child(4){
+	height: 400px;
+	background: lightblue;
+}*/
+.main,.listItem{
+	color: red;
+	background: yellow;
+	float: left;
+}
+.main{
+	width: 900px;
+	height: 200px;
+}
+.listItem{
+	width: 600px;
+	height: 300px;
+}
